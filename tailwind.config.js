@@ -21,7 +21,15 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/Blank.jpg')",
       },
-    },
-  },
-  plugins: [],
+      backgroundImage: {
+        "hero-pattern": "url('/src/assets/Blank.jpg')",
+      },
+      backgroundRepeat: {
+        "no-repeat": "no-repeat",
+      },
+      backgroundSize: {
+        "auto": "auto",
+      },
+    }
+  }
 };
